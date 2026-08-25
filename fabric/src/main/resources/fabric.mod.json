@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "laddersprint",
+  "version": "${version}",
+  "name": "Ladder Sprint",
+  "description": "Allows players to sprint up ladders & other climbable blocks",
+  "authors": [
+    "creoii"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/ladder-sprint/icon.png",
+  "environment": "*",
+  "mixins": [
+    "ladder-sprint.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "architectury": ">=19.0.1",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
