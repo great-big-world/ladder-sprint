@@ -11,6 +11,7 @@ authors = "creoii"
 description = '''
 Allows players to sprint up ladders & other climbable blocks
 '''
+updateJSONURL = "https://api.modrinth.com/updates/ladder-sprint/forge_updates.json?neoforge=only"
 #logoFile = ""
 
 [[dependencies.laddersprint]]
