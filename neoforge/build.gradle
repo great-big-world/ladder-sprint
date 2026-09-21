@@ -38,6 +38,10 @@ dependencies {
 
     common(project(':common')) { transitive false }
     shadowBundle(project(path: ':common', configuration: 'transformProductionFabric')) { transitive false }
+
+    constraints {
+        implementation('io.github.llamalad7:mixinextras-neoforge:0.5.5')
+    }
 }
 
 processResources {

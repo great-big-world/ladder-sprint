@@ -16,21 +16,21 @@ Allows players to sprint up ladders & other climbable blocks
 [[dependencies.laddersprint]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21,)"
+versionRange = "[26,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.laddersprint]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21.11,)"
+versionRange = "[26.3,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.laddersprint]]
 modId = "architectury"
 type = "required"
-versionRange = "[19.0.1,)"
+versionRange = "[22.0.0,)"
 ordering = "AFTER"
 side = "BOTH"
 
